@@ -3,4 +3,6 @@ const person = {
     occupation: "Product Designer"
 }
 
-console.log(`Hi, I'm ${person.name}, a ${person.occupation}.`)
+for (let i = 0; i < 5; i++) {
+    console.log(`Hi, I'm ${person.name}, a ${person.occupation}.`)    
+}
